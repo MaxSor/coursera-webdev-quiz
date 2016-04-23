@@ -1,0 +1,96 @@
+body {box-sizing: border-box;}
+
+h1 {font-size: 200%; color: #882862; text-align: center;}
+
+.menu_section_header {
+	border: 1px solid black;
+	color: black; 
+	font-size: 175%;
+
+	/*
+	position: relative;
+	left:68%;
+	top:0;
+	width: 30%;
+	text-align: right;
+	padding: 0.9% 1% 1% 0.9%;
+	margin: 0;*/
+	
+	/*
+	position: absolute;
+	right:0;
+	top:0;
+	margin: 0;
+	*/
+
+	/* I gave up with finding easy way with positions and decided to use this */
+	float: right; 
+	width: 30%;
+	margin: -1px -1px 0px 0px;
+	padding: 1% 20px 1% 20px;
+	
+}
+
+.section_header_1 {
+	background-color: #B66A98;
+}
+
+.section_header_2 {
+	background-color: #E58688;
+}
+
+.section_header_3 {
+	background-color: #BDD97F;
+}
+	
+.section_text {
+	clear: right;
+	margin: 2%;
+	padding: 2%;
+	font-size: 125%;
+	text-align: justify;
+}
+
+.menu_section {
+	background-color: #94CE91;
+	border: 1px solid black;
+	margin: auto;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+}
+
+.menu_section:hover {
+	background-color: #4BA346;
+}
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+				width: 31.3%;
+				height: 280px;
+				margin: 1%
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+				width: 48%;
+				height: 250px;
+				margin: 1%;
+				
+	}
+	.col-md-12 {
+				width: 98%;
+				height: 180px;
+				margin: 1%;
+	} 
+}
+
+@media (max-width: 767px) {
+	.col-s-12 {
+				width: 98%;
+				height: auto;
+				margin: 2% 
+	}
+}
+
